@@ -1,20 +1,17 @@
+// import main from '../../assets/main-removebg-preview.png'
 import main from '../../assets/main.JPG'
 import './About.css'
 const About = () => {
     return (
         <>
-            <div className="container">
-                <div className="container-fluid">
-                    <div className="row">
-                        <div className="col">
-                          Helping you stand out online—with style and strategy.
-                        </div>
-                        <div className="col">
-                            <img src={main} alt="" className='profileImg'/>
-                        </div>
-                    </div>
+            <section className="hero">
+                <div className="hero-text">
+                    <p>Helping you stand out online—with style and strategy.</p>
                 </div>
-            </div>
+                <div className="hero-image">
+                    <img src={main} alt="Profile" />
+                </div>
+            </section>
         </>
     )
 }

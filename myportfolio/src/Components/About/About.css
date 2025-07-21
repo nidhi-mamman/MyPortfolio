@@ -1,4 +1,26 @@
-.profileImg{
-   height: 600px;
-   width: 400px;
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 80px;
+  background: linear-gradient(135deg, #0d0d0d, #4b0082);
+  color: #ffffff;
+}
+
+.hero-text {
+  flex: 1;
+  font-size: 1.2rem;
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+}
+
+.hero-image {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.hero-image img {
+  box-shadow: 0 0 20px rgba(138, 43, 226, 0.4); /* purple glow */
+  border-radius: 12px;
 }
